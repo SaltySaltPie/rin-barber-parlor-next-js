@@ -1,0 +1,25 @@
+.contentC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // 1rem = 16px
+    padding: 50px 90px;
+    .navLeft {
+    }
+    .navRight {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        .navItems {
+            display: flex;
+            gap: 50px;
+            font-weight: 700;
+            color: var(--white);
+            > li {
+                &:hover {
+                    color: var(--main-1);
+                }
+            }
+        }
+    }
+}
