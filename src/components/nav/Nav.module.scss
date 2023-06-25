@@ -1,9 +1,12 @@
 .contentC {
+    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     // 1rem = 16px
     padding: 50px 90px;
+    z-index: 1;
     .navLeft {
     }
     .navRight {

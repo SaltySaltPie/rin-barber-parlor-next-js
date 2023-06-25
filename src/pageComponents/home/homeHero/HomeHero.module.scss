@@ -1,0 +1,35 @@
+.contentC {
+    height: max(80vh, 800px);
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 140px 116px;
+    background-image: url(https://jimbui-personal.s3.ap-southeast-1.amazonaws.com/rin/hero-bg.png);
+    position: relative;
+    .hero {
+        width: fit-content;
+        .title1,
+        .title2 {
+            margin-bottom: 22px;
+        }
+        .title1 {
+            color: var(--main-1);
+        }
+        .title2 {
+            font-size: 3rem;
+            font-weight: 700;
+            max-width: 500px;
+            line-height: 94.5%;
+        }
+        .title3 {
+            color: var(--main-1);
+            max-width: 390px;
+            font-size: 21px;
+            line-height: 106.5%;
+            margin-bottom: 80px;
+        }
+        .buttonsC {
+            display: flex;
+            gap: 40px;
+        }
+    }
+}

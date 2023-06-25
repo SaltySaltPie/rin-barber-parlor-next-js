@@ -1,8 +1,8 @@
 "use client";
 import styles from "./MainButton.module.scss";
-const MainButton = ({ title, handleClick, type }: TMainButtonProps) => {
+const MainButton = ({ title, handleClick = () => {}, type }: TMainButtonProps) => {
     return (
-        <button className={`${styles.contentC} ${styles['style' + type]}`} onClick={handleClick}>
+        <button className={`${styles.contentC} ${styles["style" + type]}`} onClick={handleClick}>
             {title}
         </button>
     );
@@ -11,6 +11,6 @@ const MainButton = ({ title, handleClick, type }: TMainButtonProps) => {
 export default MainButton;
 type TMainButtonProps = {
     title: string;
-    handleClick: () => void;
+    handleClick?: () => void;
     type: 1 | 2 | 3;
 };
