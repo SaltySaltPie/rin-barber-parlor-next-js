@@ -4,7 +4,7 @@ const HomeHero = () => {
     return (
         <article className={`${styles.contentC}`}>
             <div className={`${styles.hero}`}>
-                <div className={`${styles.title1}`}>Welcome To Choppers</div>
+                <div className={`${styles.title1}`}>Welcome To Choppers Motherfuckers</div>
                 <div className={`${styles.title2}`}>Best Hair Salon For A Professional Look</div>
                 <div className={`${styles.title3}`}>Choppers offers high performance customized facials to provide you with visible results.</div>
                 <div className={`${styles.buttonsC}`}>
